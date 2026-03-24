@@ -1,0 +1,467 @@
+[00:00:00.854] Server  LOG     ✓ Ready in 623ms
+[00:03:52.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:22.471] Server  LOG     ✓ Compiled in 131ms
+[00:12:43.640] Server  LOG     ✓ Compiled in 104ms
+[01:23:13.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:55.728] Server  LOG     ✓ Compiled in 709ms
+[01:25:50.312] Server  LOG     ✓ Compiled in 168ms
+[01:26:45.371] Server  LOG     ✓ Compiled in 77ms
+[01:26:50.272] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.275] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.276] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.276] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.289] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.301] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.305] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.306] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.310] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.313] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.315] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:50.318] Server  ERROR   ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:26:51.123] Browser ERROR   ./app/page.tsx:8:1
+Module not found: Can't resolve '@/components/site-footer'
+   6 | import { QACareersSection } from "@/components/qa-careers-section";
+   7 | import { ServicesSection } from "@/components/services-section";
+>  8 | import { SiteFooter } from "@/components/site-footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { SiteHeader } from "@/components/site-header";
+  10 | import { TechStackSection } from "@/components/tech-stack-section";
+  11 | import { ValuePropsSection } from "@/components/value-props-section";
+
+Import map: aliased to relative './components/site-footer' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:21.777] Server  LOG     ✓ Compiled in 184ms
+[01:39:35.866] Server  LOG     ✓ Compiled in 108ms
+[01:40:46.367] Server  LOG     ✓ Compiled in 97ms
+[01:42:34.585] Server  LOG     ✓ Compiled in 100ms
+[01:44:38.945] Server  LOG     ✓ Compiled in 103ms
+[05:55:42.293] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:14:34.329] Server  LOG     ✓ Compiled in 160ms
+[06:14:38.231] Server  LOG     ✓ Compiled in 78ms
+[06:21:15.776] Server  LOG     ✓ Compiled in 115ms
+[06:25:02.810] Server  LOG     ✓ Compiled in 162ms
+[06:28:53.618] Server  LOG     ✓ Compiled in 109ms
+[06:39:50.224] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.225] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.228] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.228] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.229] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.231] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.234] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.234] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.237] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.237] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.239] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.240] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.241] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.242] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:39:50.271] Server  LOG     ✓ Compiled in 254ms
+[06:39:50.381] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/qa-careers-section'
+  4 | import { HeroSection } from "@/components/hero-section";
+  5 | import { ProcessSection } from "@/components/process-section";
+> 6 | import { QACareersSection } from "@/components/qa-careers-section";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { ServicesSection } from "@/components/services-section";
+  8 | import { SiteFooter } from "@/components/site-footer";
+  9 | import { SiteHeader } from "@/components/site-header";
+
+Import map: aliased to relative './components/qa-careers-section' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[06:40:31.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:41:19.435] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[10:41:19.436] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[11:03:41.473] Server  LOG     ✓ Compiled in 165ms
+[11:03:50.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

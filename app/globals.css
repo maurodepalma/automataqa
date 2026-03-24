@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 10 12 16;
+  --foreground: 228 233 242;
+  --card: 16 19 25;
+  --card-foreground: 228 233 242;
+  --border: 255 255 255 / 0.055;
+  --muted: 14 17 23;
+  --muted-foreground: 174 184 202;
+  --primary: 91 140 255;
+  --primary-foreground: 255 255 255;
+  --accent: 122 92 255;
+  --accent-foreground: 255 255 255;
+  --accent-start: 91 140 255;
+  --accent-end: 122 92 255;
+  --ring: 122 92 255;
+}
+
+.dark {
+  --background: 10 12 16;
+  --foreground: 228 233 242;
+  --card: 16 19 25;
+  --card-foreground: 228 233 242;
+  --border: 255 255 255 / 0.055;
+  --muted: 14 17 23;
+  --muted-foreground: 174 184 202;
+  --primary: 91 140 255;
+  --primary-foreground: 255 255 255;
+  --accent: 122 92 255;
+  --accent-foreground: 255 255 255;
+  --accent-start: 91 140 255;
+  --accent-end: 122 92 255;
+  --ring: 122 92 255;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(1200px 520px at 18% -8%, rgba(91, 140, 255, 0.08), transparent 58%),
+      radial-gradient(980px 460px at 82% -12%, rgba(122, 92, 255, 0.08), transparent 60%);
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@layer utilities {
+  @keyframes cta-sheen {
+    0% {
+      transform: translateX(-180%) skewX(-20deg);
+      opacity: 0;
+    }
+    20% {
+      opacity: 0.22;
+    }
+    55% {
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateX(220%) skewX(-20deg);
+      opacity: 0;
+    }
+  }
+
+  .cta-smooth {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  .cta-smooth::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    left: -35%;
+    height: 160%;
+    width: 42%;
+    background: linear-gradient(
+      120deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.35) 50%,
+      transparent 100%
+    );
+    pointer-events: none;
+    z-index: 0;
+    animation: cta-sheen 3.6s ease-in-out infinite;
+  }
+
+  .cta-smooth > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .faint-grid {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 15%, black, transparent 100%);
+  }
+
+  .hero-glow {
+    background:
+      radial-gradient(circle at 22% 10%, rgba(91, 140, 255, 0.12), transparent 36%),
+      radial-gradient(circle at 78% 5%, rgba(122, 92, 255, 0.12), transparent 40%);
+  }
+
+}
