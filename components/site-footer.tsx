@@ -31,10 +31,10 @@ export function SiteFooter() {
     <Footer2
       className="py-16 md:py-20"
       logo={{
-        src: "/automata-qa-logo.svg",
+        src: "automata-qa-logo.svg",
         alt: "AutomataQA",
         title: "",
-        url: "/"
+        url: "#top"
       }}
       tagline="Scale Quality. Accelerate Releases. Reduce Risk."
       menuItems={menuItems}

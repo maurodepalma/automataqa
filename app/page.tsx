@@ -14,7 +14,7 @@ import { ValuePropsSection } from "@/components/value-props-section";
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen overflow-x-hidden">
+    <div id="top" className="relative min-h-screen overflow-x-hidden">
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="hero-glow absolute inset-0" />
         <div className="faint-grid absolute inset-0 opacity-70" />
