@@ -19,6 +19,7 @@ interface StrategyCallDialogProps {
   bullets?: string[];
   founderNote?: string;
   ctaLabel?: string;
+  ctaHref?: string;
   footnote?: string;
 }
 
@@ -33,6 +34,7 @@ export function StrategyCallDialog({
   ],
   founderNote = "30-minute call with the founder, 8+ years in QA working with U.S. teams",
   ctaLabel = "Get My QA Plan",
+  ctaHref = "https://calendly.com/maurodepalma94/30min?month=2026-03",
   footnote = "No commitment. Just a clear plan."
 }: StrategyCallDialogProps) {
   return (
@@ -56,8 +58,10 @@ export function StrategyCallDialog({
           <div className="pt-1 text-sm text-foreground">{founderNote}</div>
         </div>
         <div className="mt-2 flex flex-col items-stretch gap-2">
-          <Button className="w-full" variant="gradient">
-            {ctaLabel}
+          <Button className="w-full" variant="gradient" asChild>
+            <a href={ctaHref} target="_blank" rel="noreferrer">
+              {ctaLabel}
+            </a>
           </Button>
           <p className="text-center text-xs text-muted-foreground">{footnote}</p>
         </div>

@@ -100,7 +100,6 @@ export function ValuePropsSection() {
         </div>
 
         <div className="md:hidden">
-          <div className="mb-3 px-1 text-right text-xs text-muted-foreground">Swipe</div>
           <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto px-1 pb-2 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
             {workflowSteps.map((step) => (
               <div key={step.title} className="w-[88%] min-w-[88%] shrink-0 snap-center">

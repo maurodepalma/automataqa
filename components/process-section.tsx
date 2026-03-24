@@ -138,6 +138,7 @@ export function ProcessSection() {
                 ]}
                 founderNote="30-minute call with the founder, 8+ years working with U.S. teams"
                 ctaLabel="Get My Hiring Plan"
+                ctaHref="https://calendly.com/maurodepalma94/30-minute-meeting-clone?month=2026-03"
                 footnote="No commitment. Just a clear plan."
                 trigger={
                   <Button variant="gradient" size="lg">
