@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AutomataQA | Scale QA with AI + Elite Nearshore Talent",
+  title: "AutomataQA | Scale QA, Ship Faster with AI & LATAM Engineers",
   description:
-    "AI-native QA automation, manual/mobile testing, and high-performance nearshore QA teams for U.S. engineering organizations."
+    "AI-powered QA for fast-moving engineering teams. We combine automation, manual and mobile testing with dedicated LATAM QA engineers to help you ship faster with confidence."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
