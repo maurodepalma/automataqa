@@ -8,19 +8,16 @@ import { Button } from "@/components/ui/button";
 
 const CAREERS_EMAIL = "careers@automataqa.com";
 const whatWereLookingFor = [
-  "QA engineers who take ownership of product quality, not just test cases",
-  "Strong experience in manual testing, automation, or both",
-  "Ability to identify edge cases and improve test coverage proactively",
-  "Comfortable working closely with developers and product teams",
-  "Clear, professional communication in English",
-  "Experience working with U.S. teams or fast-paced environments"
+  "QA engineers with strong experience in manual testing, automation, or both",
+  "Ownership mindset over product quality and user experience",
+  "Experience working with U.S.-based teams or fast-paced environments",
+  "Comfortable with modern QA tools and AI-assisted workflows"
 ];
 
 const whatYoullGet = [
   "Work directly with U.S.-based product and engineering teams",
   "Real ownership over product quality and decisions",
-  "Flexible, remote-first work environment",
-  "Exposure to modern QA tools and workflows",
+  "Fully remote, flexible work environment",
   "Competitive compensation in USD"
 ];
 

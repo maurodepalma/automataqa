@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import {
   Accessibility,
   Check,
@@ -7,6 +10,7 @@ import {
   TestTube2,
   Users2
 } from "lucide-react";
+import { useSearchParams } from "next/navigation";
 
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -143,6 +147,24 @@ const serviceContent = {
 } as const;
 
 export function ServicesSection() {
+  type ServiceKey = keyof typeof serviceContent;
+  const searchParams = useSearchParams();
+  const serviceFromUrl = searchParams.get("service");
+  const isServiceKey = (value: string | null): value is ServiceKey =>
+    value !== null && value in serviceContent;
+
+  const [activeTab, setActiveTab] = useState<ServiceKey>(
+    isServiceKey(serviceFromUrl) ? serviceFromUrl : "automation"
+  );
+
+  useEffect(() => {
+    if (isServiceKey(serviceFromUrl)) {
+      setActiveTab(serviceFromUrl);
+      return;
+    }
+    setActiveTab("automation");
+  }, [serviceFromUrl]);
+
   return (
     <section id="qa-services" className="py-16 md:py-20">
       <div className="container">
@@ -154,7 +176,7 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <Tabs defaultValue="automation" className="w-full">
+        <Tabs value={activeTab} onValueChange={(value) => setActiveTab(value as ServiceKey)} className="w-full">
           <TabsList className="justify-center">
             {(
               Object.entries(serviceContent) as Array<

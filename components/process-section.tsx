@@ -58,7 +58,7 @@ const steps = [
 
 export function ProcessSection() {
   return (
-    <section id="latam-qa-engineers" className="bg-card/70 py-16 md:py-20">
+    <section id="latam-qa-engineers" className="py-16 md:py-20">
       <div className="container">
         <div className="mx-auto mb-10 max-w-3xl text-center">
           <Badge variant="default" className="mx-auto w-fit bg-white/6 px-3 py-1">
@@ -129,6 +129,16 @@ export function ProcessSection() {
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <StrategyCallDialog
+                title="Book a Talent Strategy Call"
+                description="Hire the right LATAM QA engineers without the overhead or hiring friction."
+                bullets={[
+                  "Define the ideal QA profile for your team and product",
+                  "Identify gaps in coverage, automation, and ownership",
+                  "Outline a clear plan to onboard and scale your QA capacity"
+                ]}
+                founderNote="30-minute call with the founder, 8+ years working with U.S. teams"
+                ctaLabel="Get My Hiring Plan"
+                footnote="No commitment. Just a clear plan."
                 trigger={
                   <Button variant="gradient" size="lg">
                     Scale Your QA
@@ -136,7 +146,7 @@ export function ProcessSection() {
                 }
               />
               <Button variant="ghost" size="lg" asChild>
-                <Link href="#qa-services">Learn About Staff Augmentation</Link>
+                <Link href="/?service=scaling#qa-services">Learn About Staff Augmentation</Link>
               </Button>
             </div>
           </div>

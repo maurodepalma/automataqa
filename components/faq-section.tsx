@@ -48,7 +48,7 @@ export function FaqSection() {
   return (
     <section id="faq" className="py-16 md:py-20">
       <div className="container">
-        <div className="mx-auto max-w-6xl rounded-3xl border border-border bg-card/60 p-4 md:p-6 lg:p-8">
+        <div className="mx-auto max-w-6xl p-4 md:p-6 lg:p-8">
           <div className="mb-8 text-center">
             <Badge variant="default" className="bg-white/6 px-3 py-1">
               FAQ
@@ -67,7 +67,7 @@ export function FaqSection() {
               <AccordionItem
                 key={faq.question}
                 value={`item-${index}`}
-                className="bg-background/55 transition-colors duration-200 hover:border-white/12"
+                className="rounded-xl border-0 bg-background/55 px-5 transition-colors duration-200 hover:bg-background/70"
               >
                 <AccordionTrigger className="text-base">{faq.question}</AccordionTrigger>
                 <AccordionContent className="text-sm leading-relaxed">{faq.answer}</AccordionContent>

@@ -36,7 +36,7 @@ export function SiteFooter() {
         title: "",
         url: "/"
       }}
-      tagline="Automation-first QA delivery for high-growth engineering teams."
+      tagline="Scale Quality. Accelerate Releases. Reduce Risk."
       menuItems={menuItems}
       copyright={`© ${new Date().getFullYear()} AutomataQA. All rights reserved.`}
       bottomLinks={[]}

@@ -11,11 +11,11 @@ export function FinalCtaSection() {
           <div className="rounded-[1rem] bg-card/95 px-6 py-10 text-center md:px-12 md:py-14">
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Ready to scale QA</p>
             <h2 className="mx-auto mt-3 max-w-2xl text-2xl font-semibold tracking-tight md:text-4xl">
-              Bring enterprise-grade QA execution to every sprint.
+              Ship faster with QA you can trust.
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground md:text-base">
-              Partner with AutomataQA to accelerate release confidence and build a dependable quality
-              engine for growth.
+              AutomataQA helps you improve coverage, reduce risk, and scale QA without slowing down
+              your team.
             </p>
             <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
               <StrategyCallDialog

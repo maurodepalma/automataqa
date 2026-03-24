@@ -1,7 +1,5 @@
 import { ClipboardCheck, Gauge, Radar, Workflow } from "lucide-react";
 
-import { StrategyCallDialog } from "@/components/strategy-call-dialog";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const workflowSteps = [
@@ -118,15 +116,6 @@ export function ValuePropsSection() {
           ))}
         </div>
 
-        <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <StrategyCallDialog
-            trigger={
-              <Button variant="gradient" size="lg">
-                Scale Your QA
-              </Button>
-            }
-          />
-        </div>
       </div>
     </section>
   );
