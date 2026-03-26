@@ -239,17 +239,23 @@ const prReviewFindings = [
 ];
 
 const debugFlakyCode = `test('should sign in with valid credentials', async ({ page }) => {
+  const testEmail = process.env.E2E_USER_EMAIL ?? '';
+  const testPassword = process.env.E2E_USER_PASSWORD ?? '';
+
   await page.goto('/login');
-  await page.fill('[name="email"]', 'user@example.com');
-  await page.fill('[name="password"]', 'Password123');
+  await page.fill('[name="email"]', testEmail);
+  await page.fill('[name="password"]', testPassword);
   await page.locator('.btn-primary').click();
   await expect(page).toHaveURL('/dashboard');
 });`;
 
 const debugFixedCode = `test('should sign in with valid credentials', async ({ page }) => {
+  const testEmail = process.env.E2E_USER_EMAIL ?? '';
+  const testPassword = process.env.E2E_USER_PASSWORD ?? '';
+
   await page.goto('/login');
-  await page.fill('[name="email"]', 'user@example.com');
-  await page.fill('[name="password"]', 'Password123');
+  await page.fill('[name="email"]', testEmail);
+  await page.fill('[name="password"]', testPassword);
   await page.getByTestId('sign-in').click();
   await expect(page).toHaveURL('/dashboard');
 });`;
@@ -282,10 +288,13 @@ const aiGeneratedPrompt =
 const aiGeneratedCode = `import { test, expect } from '@playwright/test';
 
 test('user can login and logout', async ({ page }) => {
+  const testEmail = process.env.E2E_USER_EMAIL ?? '';
+  const testPassword = process.env.E2E_USER_PASSWORD ?? '';
+
   await page.goto('https://app.example.com/login');
 
-  await page.getByLabel('Email').fill('qa@example.com');
-  await page.getByLabel('Password').fill('securePassword123');
+  await page.getByLabel('Email').fill(testEmail);
+  await page.getByLabel('Password').fill(testPassword);
   await page.getByRole('button', { name: 'Sign in' }).click();
 
   await expect(page).toHaveURL(/dashboard/);
@@ -791,7 +800,7 @@ export function AIQaSection() {
                   <div className="flex items-center justify-between border-b border-[#30363D] bg-[#161B22] px-3 py-2 text-[11px]">
                     <div className="flex items-center gap-2 text-[#C9D1D9]">
                       <FileCode2 className="h-3.5 w-3.5" />
-                      <span>generated-login.spec.ts</span>
+                      <span>login.spec.ts</span>
                     </div>
                     <Badge className="border border-[#58A6FF]/35 bg-[#1F6FEB]/15 text-[#9CC3FF]">
                       Generated with AI

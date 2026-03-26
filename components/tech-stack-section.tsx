@@ -1,7 +1,6 @@
 "use client";
 
 import { Code2, Layers } from "lucide-react";
-import { motion, useReducedMotion } from "motion/react";
 import {
   SiAppium,
   SiCypress,
@@ -89,26 +88,13 @@ const tools: StackTool[] = [
 ];
 
 function MobileToolsCarousel({ items }: { items: StackTool[] }) {
-  const reduceMotion = useReducedMotion();
   const marqueeItems = [...items, ...items];
 
   return (
     <div className="relative w-full overflow-hidden rounded-2xl bg-card/50 py-4">
       <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-background to-transparent" />
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-background to-transparent" />
-      <motion.div
-        className="flex w-max gap-3 px-3"
-        animate={reduceMotion ? { x: 0 } : { x: ["0%", "-50%"] }}
-        transition={
-          reduceMotion
-            ? undefined
-            : {
-                duration: 28,
-                ease: "linear",
-                repeat: Infinity
-              }
-        }
-      >
+      <div className="mobile-tech-marquee flex w-max gap-3 px-3">
         {marqueeItems.map((tool, index) => (
           <div
             key={`${tool.title}-${index}`}
@@ -118,7 +104,7 @@ function MobileToolsCarousel({ items }: { items: StackTool[] }) {
             <span className="h-5 w-5">{tool.icon}</span>
           </div>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 }

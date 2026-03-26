@@ -98,6 +98,22 @@
     z-index: 1;
   }
 
+  @keyframes mobile-tech-marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  .mobile-tech-marquee {
+    animation: mobile-tech-marquee 28s linear infinite;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
   .faint-grid {
     background-image:
       linear-gradient(to right, rgba(255, 255, 255, 0.022) 1px, transparent 1px),
